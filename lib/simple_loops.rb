@@ -1,11 +1,11 @@
 def loop_message_five_times(string)
-  3.times do
+  5.times do
   puts string
 end
 end
 
-def loop_message_n_times(number, string)
-  number.times do
+def loop_message_n_times(n, string)
+  n.times do
     puts string
   end
 end
