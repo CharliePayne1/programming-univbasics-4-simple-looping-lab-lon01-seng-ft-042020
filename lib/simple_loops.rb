@@ -3,7 +3,3 @@ def loop_message_five_times(string)
   puts string
 end
 
-def loop_message_n_times(number, string)
-  number.times do
-    puts string
-  end
