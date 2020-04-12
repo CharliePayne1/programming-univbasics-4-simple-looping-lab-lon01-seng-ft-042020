@@ -24,6 +24,7 @@ def output_array(array)
   while counter < array.length do
     new_array = array.push[counter]
     counter += 1
-    return new_array
   end
+  do return new_array
+end
  end
